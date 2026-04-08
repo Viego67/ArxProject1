@@ -71,6 +71,7 @@
         //#define _ARX_CUSTOM_DRAG_N_DROP_	//- Support for the ObjectARX Drag'n Drop API
     //#define _INC_LEAGACY_HEADERS_			//- Include legacy headers in this project
 #include "arxHeaders.h"
+#include "tchar.h" 
 
         
 //-----------------------------------------------------------------------------

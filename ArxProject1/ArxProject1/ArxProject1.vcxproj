@@ -70,17 +70,23 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="acrxEntryPoint.cpp" />
+    <ClCompile Include="ADSKEditorReactor.cpp" />
     <ClCompile Include="ArxProject1.cpp" />
+    <ClCompile Include="diсt.cpp" />
     <ClCompile Include="DocData.cpp" />
     <ClCompile Include="StdAfx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Utilities.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ADSKEditorReactor.h" />
+    <ClInclude Include="dict.h" />
     <ClInclude Include="DocData.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="Utilities.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="ArxProject1.rc" />
